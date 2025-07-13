@@ -9,9 +9,9 @@ def show_about_screen(root):
     info_text = (
         "BMI Calculator App\n"
         "Created by Team XYZ\n"
-        "CS Department, 2025\n"
+        "IT Department, 2025\n"
         "This is an Open Source Project"
     )
-    tk.Label(root, text=info_text, font=("Helvetica", 12), justify="center").pack(pady=10)
+    tk.Label(root, text=info_text, font=("Helvetica", 17), justify="center").pack(pady=10)
 
-    tk.Button(root, text="Back", font=("Helvetica", 10), command=root.destroy).pack(pady=20)
+    tk.Button(root, text="Back", font=("Helvetica", 10), command=root.destroy).pack(pady=`15)
