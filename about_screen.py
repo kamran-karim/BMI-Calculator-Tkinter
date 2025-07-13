@@ -15,4 +15,3 @@ def show_about_screen(root):
     tk.Label(root, text=info_text, font=("Helvetica", 12), justify="center").pack(pady=10)
 
     tk.Button(root, text="Back", font=("Helvetica", 10), command=root.destroy).pack(pady=20)
-    #test changes
