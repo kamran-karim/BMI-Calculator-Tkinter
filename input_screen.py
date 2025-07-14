@@ -77,6 +77,8 @@ def show_input_screen(root):
         records = cursor.fetchall()
 
         if not records:
+
+            
             tk.messagebox.showinfo("No Data", "No records found.")
             return
 
